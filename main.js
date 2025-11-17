@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded",function () {                      
   })
 
 
-  let btn_popup = document.querySelector('#popup')                              //#popup - обращается к id в html
+  let btn_popup = document.querySelector('#popup')                             
   btn_popup.addEventListener('click',function () {
     let size = getSize();
     createBoard(size);
@@ -80,3 +80,4 @@ function resetBoard() {
   let divs = document.querySelectorAll("div")
   divs.forEach((div) => div.style.backgroundColor = "white")
 }
+
